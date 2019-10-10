@@ -46,7 +46,7 @@ layout: default
             {% if page.categories %}
             {{ post.categories }}
             {% else %}
-            {{ post.categories }}
+            {{ site.categories }}
             {% endif %}
             on
             {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            

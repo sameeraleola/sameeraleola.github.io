@@ -19,13 +19,15 @@ $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
+$gold:     #d4af37 !default;
 $green:   #28a745 !default;
 $teal:    #0085A1 !default;
 $cyan:    #17a2b8 !default;
+$darkorange: #cf5300 !default;
 
 $primary:       $teal !default;
 $secondary:     $gray-600 !default;
-$hover:         $yellow !default;
+$hover:         $darkorange !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;

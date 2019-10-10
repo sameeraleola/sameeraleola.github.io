@@ -1,0 +1,34 @@
+title:           Sameera Leola
+email:          me@sameeraleola.dev
+description:    Studying iOS Development
+author:         Sameera Leola
+baseurl:        ""
+url:             ""
+
+# Social Profiles
+twitter_username:   sameeraleola
+github_username:    sameeraleola
+linkedin_username:   sameeraroussi
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Location particulars
+timezone: "America/Chicago"
+address:
+  - line: Hyde Park
+  - line: Chicago, IL 60615
+
+kramdown:
+  input: GFM
+
+# Build settings
+markdown:           kramdown
+highlighter: rouge
+paginate:           5
+paginate_path:      "/posts/page:num/"
+permalink: /:year-:month-:day-:title/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

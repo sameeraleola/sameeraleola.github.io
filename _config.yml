@@ -2,6 +2,7 @@ title:           Sameera Leola
 email:          me@sameeraleola.dev
 description:    iOS Development Notes
 author:         Sameera Leola
+category:       [FYI]
 baseurl:        ""
 url:             ""
 
@@ -10,7 +11,7 @@ twitter_username:   sameeraleola
 github_username:    sameeraleola
 linkedin_username:   sameeraroussi
 
-category: Stuff
+
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code

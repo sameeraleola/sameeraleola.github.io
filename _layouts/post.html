@@ -1,5 +1,6 @@
 ---
 layout: default
+category: [FYI]
 ---
 
 <!-- Page Header -->
@@ -18,20 +19,11 @@ layout: default
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
               
-            <span class="meta">Posted to
-              <a href="#">{% if page.categories %}{{ page.categories }}{% else %}{{ page.tag }}{% endif %}</a>
+            <span class="meta">Posted to 
+              <a href="#">{% if page.categories %}{{ page.categories }}{% else %}{{ site.categories }}{% endif %}</a>
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}   {{page.categories}}
+              content=page.content %}
             </span>
-              
-<!--
-                          <span class="meta">Posted to {{page.categories}}
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}  
-            </span>
--->
-
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ navbar-links:
   Home: "/"
   About: "about"
   Languages:
-    - iOS development languages: "languages"
+    - about thelanguages: "languages"
     - Swift: "http://swiftysameera.dev/swift"
     - Swift-UI: "http://swiftysameera.dev/swiftui"
     - Objective-C: "http://swiftysameera.dev/objectivec"

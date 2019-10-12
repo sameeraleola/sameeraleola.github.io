@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about
+background: '/img/bg-about.jpg'
 ---
 
 My name is Inigo Montoya. I have the following qualities:

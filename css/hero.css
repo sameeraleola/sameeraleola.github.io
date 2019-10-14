@@ -1,0 +1,30 @@
+/* Style the hero section */
+header.hero {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+
+    /* Background cover */
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
+
+/* Background overlay */
+.overlay:after {
+    position: absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0.8;
+  }
+/* Background overlay color*/
+  .gray:after {
+    background-color: #212529;
+  }
+
+  

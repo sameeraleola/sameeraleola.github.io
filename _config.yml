@@ -24,10 +24,12 @@ navbar-links:
   iOS: "iosdev"
   Languages:
     - about: "languages"
-    - Swift: "http://swiftysameera.dev/swift"
-    - Objective-C: "http://swiftysameera.dev/objectivec"
-    - Swift-UI: "http://swiftysameera.dev/swiftui"
-  X-Code: "xcode"
+    - Swift: "http://swiftysameera.com/swift"
+    # - Objective-C: "http://swiftysameera.com/objectivec"
+    # - Swift-UI: "http://swiftysameera.dev/swiftui"
+  Projects: "projects"
+  Tools:
+    - X-Code: "xcode"
   About: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)

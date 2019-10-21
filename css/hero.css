@@ -37,3 +37,15 @@ header.hero {
       padding: 200px 0;
     }
   }
+
+  /* Page heading and site-heading h1 format */
+  .page-heading h1,
+  .site-heading h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Lora', serif;   
+      margin-top: 0;
+    }
+
+

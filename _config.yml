@@ -24,7 +24,7 @@ navbar-links:
   iOS: "iosdev"
   Languages:
     - about: "languages"
-    - Swift: "http://swiftysameera.com/swift"
+    - Swift: "http://swiftysameera.com/"
     # - Objective-C: "http://swiftysameera.com/objectivec"
     # - Swift-UI: "http://swiftysameera.dev/swiftui"
   Projects: "projects"
